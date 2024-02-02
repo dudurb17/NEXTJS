@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "../src/components/link";
 export default function FAQPagina() {
   return (
     <div>
