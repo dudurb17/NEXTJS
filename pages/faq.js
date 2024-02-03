@@ -1,5 +1,9 @@
 import Link from "../src/components/link";
 import { useEffect, useState } from "react";
+// SSG - Static Site Generation
+// SSR - Server Site Redering
+// ISG - Incremental Static Generation
+
 // export async function getServerSideProps()  confere todo acesso que você recebe
 // em modo dev roda em todo acesso
 export async function getStaticProps() {
