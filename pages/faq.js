@@ -1,5 +1,7 @@
 import Link from "../src/components/link";
 import { useEffect, useState } from "react";
+import PageTitle from "@/src/components/PageTitle";
+
 // SSG - Static Site Generation
 // SSR - Server Site Redering
 // ISG - Incremental Static Generation
@@ -32,6 +34,7 @@ export default function FAQPagina({ faq }) {
   // useEffect(() => {}, []);
   return (
     <div>
+      <PageTitle>FAQ - Alura Cases Campanha</PageTitle>
       <h1>Alura Cases - Paginas de perguntas FAQ</h1>
       <Link href="/">Ir para a home</Link>
       <ul>
